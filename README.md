@@ -13,7 +13,7 @@ Wipe your Rust server automatically using bash script and cronjobs (Rust LGSM Se
 4. Add this at the end of the file:[^Explanation]
    
    ```
-   0 15 * * 4 /home/user (replace user with current username)
+   0 15 * * 4 /home/user/wiper.sh (replace user with current username)
    ```
 
 [^Explanation]: In this code 0 15 Means that the prompt will be called at 15:00 (03:00 pm) and the 4 is the week day (in this section it is Thursday), You can findout more about cron format at https://crontab.guru/
